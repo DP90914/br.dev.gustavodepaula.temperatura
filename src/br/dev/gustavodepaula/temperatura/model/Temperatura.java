@@ -10,12 +10,12 @@ public class Temperatura {
 	public double getCelsius() {
 		return celsius;
 	}
-	public double converterKelvin() {
+	public double converterKelvin(double celsiusDouble) {
 		double kelvin = celsius + 273;
 		return kelvin;
 	}
 	public double converterFahreiheit() {
-		double fahreiheit = celsius * 1.8 + 32;
+		double fahreiheit = (celsius * 1.8) + 32;
 		return fahreiheit;
 	}
 }
