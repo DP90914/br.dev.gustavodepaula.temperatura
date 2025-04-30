@@ -1,4 +1,4 @@
-package dr.dev.gustavodepaula.temperatura.model;
+package br.dev.gustavodepaula.temperatura.model;
 
 public class Temperatura {
 	private double celsius;

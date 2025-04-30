@@ -1,4 +1,4 @@
-package dr.dev.gustavodepaula.temperatura.gui;
+package br.dev.gustavodepaula.temperatura.gui;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -18,8 +18,12 @@ public class TelaConversor {
 		tela.setTitle("Conversor de Temperatura");
 		tela.setSize(300, 680);
 		tela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
 		tela.setLayout(null);
+		
+		
 		tela.setResizable(false);
 
+		tela.setVisible(true);
 	}
 }

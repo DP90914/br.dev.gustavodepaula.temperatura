@@ -1,4 +1,4 @@
-package dr.dev.gustavodepaula.temperatura;
+package br.dev.gustavodepaula.temperatura;
 
 public class TemperaturaApp {
 
