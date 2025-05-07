@@ -10,7 +10,7 @@ public class Temperatura {
 	public double getCelsius() {
 		return celsius;
 	}
-	public double converterKelvin(double celsiusDouble) {
+	public double converterKelvin() {
 		double kelvin = celsius + 273;
 		return kelvin;
 	}
